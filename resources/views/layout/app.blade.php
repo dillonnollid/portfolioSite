@@ -21,14 +21,17 @@
     </style>
 
 </head>
-<body class="antialiased">
+<body class="antialiased text-gray-800 dark:text-gray-200">
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
+        <x-layout.navbar></x-layout.navbar>
+        <br><br><br><br><br><br><br><br>
 
-<x-layout.navbar></x-layout.navbar>
+        {{$slot}} <!-- welcome.blade.php -->
 
+        <x-layout.footer></x-layout.footer>
 
-<footer>Footer in app.blade.php</footer>
+        <script src="{{ asset('js/app.js') }}"></script>
 
-<script src="{{ asset('js/app.js') }}"></script>
-
+    </div>
 </body>
 </html>

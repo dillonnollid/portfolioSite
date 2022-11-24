@@ -26,7 +26,7 @@
             <div class="flex px-4 justify-end items-center w-full space-x-4">
                 <div>
                     <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen"
-                                               x-bind:class="navbarOpen && 'navbarTogglerActive'"></x-layout.navbar-hamburger>
+                                               x-bind:class="navbarOpen && 'navbarTogglerActive'">HAM HERE</x-layout.navbar-hamburger>
 
                     <nav
                         :class="!navbarOpen && 'hidden' "
