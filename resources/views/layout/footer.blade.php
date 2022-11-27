@@ -1,70 +1,86 @@
 <!-- Footer Start -->
-<footer class="bg-gray-200 dark:bg-slate-800 py-8 relative z-10">
-    <div class="container">
-        <span class="inline-flex items-center text-xl">
-            Follow on Social!
-        </span>
-        <x-social-icons class="mb-0"></x-social-icons>
-    </div>
-    <div>
-         <span class="absolute left-0 bottom-0 z-[-1]">
-             <svg
-                 width="217"
-                 height="229"
-                 viewBox="0 0 217 229"
-                 fill="none"
-                 xmlns="http://www.w3.org/2000/svg"
-             >
-                <path
-                    d="M-64 140.5C-64 62.904 -1.096 1.90666e-05 76.5 1.22829e-05C154.096 5.49924e-06 217 62.904 217 140.5C217 218.096 154.096 281 76.5 281C-1.09598 281 -64 218.096 -64 140.5Z"
-                    fill="url(#paint0_linear_1179_5)"
-                />
-                <defs>
-                  <linearGradient
-                      id="paint0_linear_1179_5"
-                      x1="76.5"
-                      y1="281"
-                      x2="76.5"
-                      y2="1.22829e-05"
-                      gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#3056D3" stop-opacity="0.08" />
-                    <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-         </span>
-        <span class="absolute right-0 bottom-0 z-[-1]">
-            <svg
-                width="75"
-                height="75"
-                viewBox="0 0 75 75"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-            <path
-                d="M37.5 -1.63918e-06C58.2107 -2.54447e-06 75 16.7893 75 37.5C75 58.2107 58.2107 75 37.5 75C16.7893 75 -7.33885e-07 58.2107 -1.63918e-06 37.5C-2.54447e-06 16.7893 16.7893 -7.33885e-07 37.5 -1.63918e-06Z"
-                fill="url(#paint0_linear_1179_4)"
-            />
-            <defs>
-              <linearGradient
-                  id="paint0_linear_1179_4"
-                  x1="-1.63917e-06"
-                  y1="37.5"
-                  x2="75"
-                  y2="37.5"
-                  gradientUnits="userSpaceOnUse"
-              >
-                <stop stop-color="#13C296" stop-opacity="0.31" />
-                <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </span>
+<footer class="bg-darkBlue2 text-white">
+    <div class="container mx-auto pt-12 px-5 pb-10">
+        <!-- Flex Container For All Items -->
+        <div class="flex flex-col justify-between space-y-24 md:flex-row md:space-y-0">
+
+            <!-- Email & Phone -->
+            <div class="mt-10 space-y-6">
+                <div class="flex items-center space-x-3 md:-mt-10">
+                    <div class="w-6">
+                        <img src="img/icon-phone.svg" alt="" class="scale-10" />
+                    </div>
+                    <div>+353 87 NOT SURE YET</div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-6">
+                        <img src="img/icon-email.svg" alt="" class="scale-10" />
+                    </div>
+                    <div>dillonnollid@gmail.com</div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <div class="w-6">
+                        <img src="img/icon-proton.svg" alt="" class="scale-10" />
+                    </div>
+                    <div>dillonnollid@proton.me</div>
+                </div>
+            </div>
+
+            <!-- Menus -->
+            <div class="flex flex-col space-y-10 text-xl md:text-base md:space-x-20 md:space-y-0 md:flex-row">
+
+                <div class="flex flex-col space-y-3">
+                    <a href="#">About</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Games</a>
+                </div>
+                <div class="flex flex-col space-y-3">
+                    <a href="#">Contact</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+
+            <!-- Social -->
+            <div class="flex justify-center pb-10 space-x-3">
+                <div>
+                    <a href="https://www.linkedin.com/in/dillonrose/" target="_blank">
+                        <img
+                            src="img/linkedin.svg"
+                            alt=""
+                            class="p-2 bg-darkBlue rounded-full ficon"
+                        />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/drnollid/" target="_blank">
+                        <img
+                            src="img/facebook.svg"
+                            alt=""
+                            class="p-2 bg-darkBlue rounded-full ficon"
+                        />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://vsco.co/dillonnollid/" target="_blank">
+                        <img
+                            src="img/vsco.svg"
+                            alt=""
+                            class="p-2 bg-darkBlue rounded-full ficon"
+                        />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/dillon.rosenkranz/" target="_blank">
+                        <img
+                            src="img/instagram.svg"
+                            alt=""
+                            class="p-2 bg-darkBlue rounded-full ficon"
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 <!-- Footer End -->
-
-<!--<div>
-
-</div> -->

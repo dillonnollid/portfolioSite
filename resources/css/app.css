@@ -1,9 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.ficon:hover {
+  filter: invert(80%) sepia(37%) saturate(7048%) hue-rotate(132deg)
+  brightness(105%) contrast(104%);
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* OLD CSS
 .snap {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -15,10 +36,6 @@
 
 .snap > img {
     scroll-snap-align: center;
-}
-
-body {
-    font-family: "Inter", sans-serif;
 }
 
 .navbarTogglerActive > span:nth-child(1) {
@@ -114,4 +131,4 @@ input#checkboxLabelFive:checked ~ .box {
         rgba(255, 255, 255, 0.08) 0%,
         rgba(196, 196, 196, 0) 100%
     );
-}
+}*/
